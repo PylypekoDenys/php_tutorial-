@@ -15,6 +15,7 @@
   <p><input type="submit"></p>
 </form>
 <?php
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
     $errors = array();
