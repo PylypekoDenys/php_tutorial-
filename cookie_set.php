@@ -17,6 +17,7 @@ if(isset($_POST['user']))
         else
         {
             setcookie('user', $user, time()+3600);
+            setcookie('pass', md5($pass), time()+3600);
             header('Location: cookie_get.php');
         }
     }

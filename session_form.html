@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP</title>
+</head>
+<body>
+<form name="entry" method="POST" action="session_set.php">
+  <fieldset>
+    <legend>В качестве имени: только буквы</legend>
+    Имя: <input type ="text" name="user" >
+    Пароль: <input type ="password" name="pass" >
+    <p>В качестве пароля: только символы A-Z a-z 0-9. _(не менее 8 символов)
+    </p><input type ="submit" value="Авторизация" >
+  </fieldset>
+</form>
+<?php
+?>
+
+</body>
+</html>
